@@ -7,7 +7,7 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending...");
-
+    // using forms api
     const formData = new FormData(event.target);
     formData.append("access_key", "d4f2cb48-a0d9-4573-97ec-b5de66e52fbd");
 
