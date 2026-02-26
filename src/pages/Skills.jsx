@@ -31,8 +31,8 @@ const Skills = () => {
  ]
   return (
     <>
-      <div className="mt-20">
-      <h1 className="text-5xl font-extrabold flex justify-center p-4 ">
+      <div className="mt-22">
+      <h1 className="text-5xl font-extrabold flex justify-center p-4  ">
         Skills
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center gap-10 p-10 ">

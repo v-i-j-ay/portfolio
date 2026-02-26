@@ -7,12 +7,13 @@ import Contact from './pages/Contact.jsx'
 import {Routes, Route} from 'react-router-dom'
 import Footer from './Footer.jsx';
 
-
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   return (
     <>
     <Navbar/>
+     <ScrollToTop/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
