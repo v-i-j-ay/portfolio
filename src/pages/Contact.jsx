@@ -38,7 +38,6 @@ const Contact = () => {
         <h1 className="text-blue-600 text-4xl font-bold">Contact Me</h1>
       </div>
 
-      {/* Main Layout */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 mt-10 mb-5">
         
         {/* Left Card */}
