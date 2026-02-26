@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from './Navbar'
-import Home from './pages/Home'
-import Skills from './pages/Skills'
-import Projects from './pages/Projects'
-import Contact from './pages/Contact'
+import Home from './pages/Home.jsx'
+import Skills from './pages/Skills.jsx'
+import Projects from './pages/Projects.jsx'
+import Contact from './pages/Contact.jsx'
 import {Routes, Route} from 'react-router-dom'
-import Footer from './footer.jsx';
+import Footer from './Footer.jsx';
 
 
 
