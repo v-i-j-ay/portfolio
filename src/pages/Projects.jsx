@@ -29,7 +29,7 @@ This project focuses on solving real-world problems in the unorganized labour ma
       title: "Student Management System",
       matter:
         "Developed a console-based Student Management System with secure Admin Authentication and full CRUD operations using Python and MySQL. The system manages academic records and includes innovative features like a Student Skill Sharing module for peer learning and a Business Idea Submission section to encourage entrepreneurship and collaboration among students. Implemented using Python, MySQL, and MySQL Connector with proper database handling and a menu-driven terminal interface.",
-      lrink: "https://github.com/v-i-j-ay/Student-Management-System",
+      rlink: "https://github.com/v-i-j-ay/Student-Management-System",
       llink: "https://www.linkedin.com/posts/activity-7398044722914762754-uzGw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEn0PAwBIPT32i0IInFXeN-IHD-OEhQ6oCE",
     },
     {
