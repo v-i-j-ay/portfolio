@@ -1,5 +1,7 @@
 import React from "react";
 import rps from "../photos/rps.jpg";
+import bs from "../photos/bs.jpeg"
+import sm from "../photos/sm.png"
 import live from "../photos/live.png";
 import github from "../photos/github.png";
 
@@ -7,21 +9,37 @@ const Projects = () => {
   const pro = [
     {
       id: 1,
-      img: rps,
-      title: "Rock Paper Scissors Game",
+      img: bs,
+      title: "BuildSetu – Labour & Contractor Marketplace Platform",
       matter:
-        "I created a Rock–Paper–Scissors game using HTML, CSS, and JavaScript. The player plays against the computer, and the game shows who wins or if it’s a draw. I also used localStorage to save the player’s score so it stays even after refreshing the browser.",
-      llink: "#",
-      rlink: "#",
+        `BuildSetu is a full-stack web platform designed to bridge the gap between skilled labourers and contractors.
+The system allows workers to register their profiles, which are then verified by an admin before becoming publicly visible.
+
+The platform ensures trust and quality by implementing an approval workflow, profile verification system, and category-based worker discovery.
+
+Contractors and employers can easily browse workers by skill category and directly contact them via WhatsApp integration.
+
+This project focuses on solving real-world problems in the unorganized labour market by digitizing hiring and making skilled workers discoverable online.`,
+      llink: "https://BuildSetu.vercel.app/",
+      rlink: "https://github.com/v-i-j-ay/BuildSetu-frontend",
     },
     {
       id: 2,
+      img: sm,
+      title: "Student Management System",
+      matter:
+        "Developed a console-based Student Management System with secure Admin Authentication and full CRUD operations using Python and MySQL. The system manages academic records and includes innovative features like a Student Skill Sharing module for peer learning and a Business Idea Submission section to encourage entrepreneurship and collaboration among students. Implemented using Python, MySQL, and MySQL Connector with proper database handling and a menu-driven terminal interface.",
+      lrink: "https://github.com/v-i-j-ay/Student-Management-System",
+      llink: "https://www.linkedin.com/posts/activity-7398044722914762754-uzGw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEn0PAwBIPT32i0IInFXeN-IHD-OEhQ6oCE",
+    },
+    {
+      id: 3,
       img: rps,
       title: "Rock Paper Scissors Game",
       matter:
         "I created a Rock–Paper–Scissors game using HTML, CSS, and JavaScript. The player plays against the computer, and the game shows who wins or if it’s a draw. I also used localStorage to save the player’s score so it stays even after refreshing the browser.",
-      llink: "#",
-      rlink: "#",
+      llink: "https://v-i-j-ay.github.io/Rock-paper-scissor-Game/",
+      rlink: "https://github.com/v-i-j-ay/Rock-paper-scissor-Game",
     },
   ];
 
