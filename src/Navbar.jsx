@@ -24,7 +24,15 @@ const Navbar = () => {
           <li type="none" className=' hover:bg-gray-900 p-2 rounded-lg cursor-pointer'><Link to='/skills' className={`${pathname==='/skills' ? 'bg-gray-900 p-2 rounded-lg':''}`} >Skills</Link></li>
           <li type="none" className=' hover:bg-gray-900 p-2 rounded-lg cursor-pointer'><Link to='/projects' className={`${pathname==='/projects' ? 'bg-gray-900 p-2 rounded-lg':''}`} >Projects</Link></li>
           <li type="none" className=' hover:bg-gray-900 p-2 rounded-lg cursor-pointer '><Link to='/contact' className={`${pathname==='/contact' ? 'bg-gray-900 p-2 rounded-lg':''}`} >Contact</Link></li></div>
-         <div className='hidden md:block'><a href={v} download="v.text" ><img src={resumeb} className='  h-25 mr-20'></img></a></div>
+         <div className="hidden md:block">
+  <a
+    href="https://drive.google.com/file/d/1n1k5V9mQP4Y4P_x5o03xW6wy6D48wSfj/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={resumeb} className="h-25 mr-20" alt="resume" />
+  </a>
+</div>
          <button onClick={()=>{setSidebarOpen(!sidebarOpen)}} className='md:hidden text-white text-3xl mr-5'> ☰</button>
 
       </div>
@@ -57,7 +65,11 @@ const Navbar = () => {
 
         {/* Resume Image */}
         <div>
-          <img src={resumeb} className="h-25 rounded-lg" alt="Resume" />
+          <a
+    href="https://drive.google.com/file/d/1n1k5V9mQP4Y4P_x5o03xW6wy6D48wSfj/view?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  ><img src={resumeb} className="h-25 rounded-lg" alt="Resume" /></a>
         </div>
       </div>
       
