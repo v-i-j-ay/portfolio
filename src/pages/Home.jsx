@@ -1,5 +1,5 @@
 import React from 'react';
-import vi from '../photos/vi.jpeg';
+import prof from '../photos/prof.jpeg';
 
 import { Typewriter } from 'react-simple-typewriter';
 import Skills from './Skills.jsx';
@@ -38,7 +38,7 @@ const Home = () => {
 <div className="mt-10 md:mt-0 flex justify-center md:mr-27">
   <div className="relative group">
     <img
-      src={vi}
+      src={prof}
       alt="Vijay Rama Reddy Karri"
       className="h-64 w-64 md:h-72 md:w-72
                  rounded-full object-cover
